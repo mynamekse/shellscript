@@ -13,5 +13,13 @@ sudo apt-get update
 sudo apt-get install linux-image-extra-$(uname -r)
 sudo apt-get update
 sudo apt-get install linux-image-generic-lts-trusty
+echo y | command
 sudo reboot
+
+
+#install 
+sudo apt-get update
+sudo apt-get install docker-engine
+echo y | command
+sudo service docker start
 
